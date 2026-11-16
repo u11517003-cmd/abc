@@ -11,7 +11,10 @@
     "note": "A reflection on life as a performance.",
     "image": "assets/images/A.jpg",
     "wordAudio": "assets/audio/words/A.mp3",
-    "quoteAudio": "assets/audio/quotes/A.mp3"
+    "quoteAudio": "assets/audio/quotes/A.mp3",
+    "wordTranslation": "全部；所有",
+    "definitionZh": "指整體的數量，或每一個人、每一件事。",
+    "quoteTranslation": "整個世界是一座舞台，所有男人和女人都只是演員。"
   },
   {
     "letter": "B",
@@ -25,7 +28,10 @@
     "note": "A witty reminder that concise speech can be powerful.",
     "image": "assets/images/B.jpg",
     "wordAudio": "assets/audio/words/B.mp3",
-    "quoteAudio": "assets/audio/quotes/B.mp3"
+    "quoteAudio": "assets/audio/quotes/B.mp3",
+    "wordTranslation": "簡潔；簡短",
+    "definitionZh": "用少量文字表達豐富意思的特質。",
+    "quoteTranslation": "簡潔乃智慧之精髓。"
   },
   {
     "letter": "C",
@@ -39,7 +45,10 @@
     "note": "A contrast between fear and courage.",
     "image": "assets/images/C.jpg",
     "wordAudio": "assets/audio/words/C.mp3",
-    "quoteAudio": "assets/audio/quotes/C.mp3"
+    "quoteAudio": "assets/audio/quotes/C.mp3",
+    "wordTranslation": "懦夫；膽怯者",
+    "definitionZh": "面對危險時缺乏勇氣的人。",
+    "quoteTranslation": "懦夫在真正死去之前已死過許多次；勇者一生只嚐過一次死亡。"
   },
   {
     "letter": "D",
@@ -53,7 +62,10 @@
     "note": "A dramatic expression of certainty in love.",
     "image": "assets/images/D.jpg",
     "wordAudio": "assets/audio/words/D.mp3",
-    "quoteAudio": "assets/audio/quotes/D.mp3"
+    "quoteAudio": "assets/audio/quotes/D.mp3",
+    "wordTranslation": "懷疑；不確定",
+    "definitionZh": "對某事提出疑問，或對其感到不確定。",
+    "quoteTranslation": "即使你懷疑星辰是火焰，也懷疑太陽正在移動。"
   },
   {
     "letter": "E",
@@ -67,7 +79,10 @@
     "note": "A famous moment of betrayal.",
     "image": "assets/images/E.jpg",
     "wordAudio": "assets/audio/words/E.mp3",
-    "quoteAudio": "assets/audio/quotes/E.mp3"
+    "quoteAudio": "assets/audio/quotes/E.mp3",
+    "wordTranslation": "你也如此嗎，布魯圖？",
+    "definitionZh": "一句拉丁文，表達遭到親近之人背叛時的震驚。",
+    "quoteTranslation": "你也如此嗎，布魯圖？那麼，凱撒倒下吧！"
   },
   {
     "letter": "F",
@@ -81,7 +96,10 @@
     "note": "Hamlet’s bitter lament about human weakness.",
     "image": "assets/images/F.jpg",
     "wordAudio": "assets/audio/words/F.mp3",
-    "quoteAudio": "assets/audio/quotes/F.mp3"
+    "quoteAudio": "assets/audio/quotes/F.mp3",
+    "wordTranslation": "脆弱；軟弱",
+    "definitionZh": "容易受傷、受損，或缺乏力量的狀態。",
+    "quoteTranslation": "脆弱啊，你的名字就是女人！"
   },
   {
     "letter": "G",
@@ -95,7 +113,10 @@
     "note": "Advice about listening thoughtfully.",
     "image": "assets/images/G.jpg",
     "wordAudio": "assets/audio/words/G.mp3",
-    "quoteAudio": "assets/audio/quotes/G.mp3"
+    "quoteAudio": "assets/audio/quotes/G.mp3",
+    "wordTranslation": "給予；提供",
+    "definitionZh": "把某物交給某人，或向某人提供某物。",
+    "quoteTranslation": "聆聽每個人的話語，但不要對太多人傾訴。"
   },
   {
     "letter": "H",
@@ -109,7 +130,10 @@
     "note": "Honour is presented as inseparable from identity.",
     "image": "assets/images/H.jpg",
     "wordAudio": "assets/audio/words/H.mp3",
-    "quoteAudio": "assets/audio/quotes/H.mp3"
+    "quoteAudio": "assets/audio/quotes/H.mp3",
+    "wordTranslation": "榮譽；名譽",
+    "definitionZh": "崇高的尊重、正直，或堅守是非原則的態度。",
+    "quoteTranslation": "我的榮譽就是我的生命；兩者同生共長。"
   },
   {
     "letter": "I",
@@ -123,7 +147,10 @@
     "note": "A lyrical opening to a meditation on love.",
     "image": "assets/images/I.jpg",
     "wordAudio": "assets/audio/words/I.mp3",
-    "quoteAudio": "assets/audio/quotes/I.mp3"
+    "quoteAudio": "assets/audio/quotes/I.mp3",
+    "wordTranslation": "如果；假如",
+    "definitionZh": "用來引出一種條件、可能性或假設。",
+    "quoteTranslation": "如果音樂是愛情的糧食，那就繼續演奏吧。"
   },
   {
     "letter": "J",
@@ -137,7 +164,10 @@
     "note": "A vivid metaphor for destructive jealousy.",
     "image": "assets/images/J.jpg",
     "wordAudio": "assets/audio/words/J.mp3",
-    "quoteAudio": "assets/audio/quotes/J.mp3"
+    "quoteAudio": "assets/audio/quotes/J.mp3",
+    "wordTranslation": "嫉妒",
+    "definitionZh": "擔心或懷疑所愛的人可能不忠或背離自己。",
+    "quoteTranslation": "主啊，當心嫉妒；它是那隻綠眼怪物。"
   },
   {
     "letter": "K",
@@ -151,7 +181,10 @@
     "note": "A line that values character over appearance.",
     "image": "assets/images/K.jpg",
     "wordAudio": "assets/audio/words/K.mp3",
-    "quoteAudio": "assets/audio/quotes/K.mp3"
+    "quoteAudio": "assets/audio/quotes/K.mp3",
+    "wordTranslation": "善意；仁厚",
+    "definitionZh": "友善、慷慨並體貼他人的特質。",
+    "quoteTranslation": "贏得我愛情的，將是女性的善良，而非她們美麗的容貌。"
   },
   {
     "letter": "L",
@@ -165,7 +198,10 @@
     "note": "Love is described as an inward way of seeing.",
     "image": "assets/images/L.jpg",
     "wordAudio": "assets/audio/words/L.mp3",
-    "quoteAudio": "assets/audio/quotes/L.mp3"
+    "quoteAudio": "assets/audio/quotes/L.mp3",
+    "wordTranslation": "愛；愛情",
+    "definitionZh": "深厚的情感，或對某人強烈的關懷。",
+    "quoteTranslation": "愛情不是用眼睛觀看，而是用心靈觀看。"
   },
   {
     "letter": "M",
@@ -179,7 +215,10 @@
     "note": "The Ghost describes the killing of King Hamlet.",
     "image": "assets/images/M.jpg",
     "wordAudio": "assets/audio/words/M.mp3",
-    "quoteAudio": "assets/audio/quotes/M.mp3"
+    "quoteAudio": "assets/audio/quotes/M.mp3",
+    "wordTranslation": "謀殺",
+    "definitionZh": "非法奪取他人性命；在莎劇中也常象徵背叛與道德失序。",
+    "quoteTranslation": "這是最邪惡的謀殺；而這一次尤其邪惡、怪異且違反天理。"
   },
   {
     "letter": "N",
@@ -193,7 +232,10 @@
     "note": "A stark statement about action and consequence.",
     "image": "assets/images/N.jpg",
     "wordAudio": "assets/audio/words/N.mp3",
-    "quoteAudio": "assets/audio/quotes/N.mp3"
+    "quoteAudio": "assets/audio/quotes/N.mp3",
+    "wordTranslation": "無；一無所有",
+    "definitionZh": "不是任何事物；完全沒有東西。",
+    "quoteTranslation": "一無所有，便不會有任何成果。"
   },
   {
     "letter": "O",
@@ -207,7 +249,10 @@
     "note": "A stirring call to courage and resolve.",
     "image": "assets/images/O.jpg",
     "wordAudio": "assets/audio/words/O.mp3",
-    "quoteAudio": "assets/audio/quotes/O.mp3"
+    "quoteAudio": "assets/audio/quotes/O.mp3",
+    "wordTranslation": "再一次；曾經",
+    "definitionZh": "在某個時刻或場合；也可表示過去某個時間。",
+    "quoteTranslation": "朋友們，再一次衝向缺口；再一次！"
   },
   {
     "letter": "P",
@@ -221,7 +266,10 @@
     "note": "A tender phrase that holds sadness and affection together.",
     "image": "assets/images/P.jpg",
     "wordAudio": "assets/audio/words/P.mp3",
-    "quoteAudio": "assets/audio/quotes/P.mp3"
+    "quoteAudio": "assets/audio/quotes/P.mp3",
+    "wordTranslation": "離別；告別",
+    "definitionZh": "離開某人或某地，或互道再見的時刻。",
+    "quoteTranslation": "離別是如此甜蜜的憂傷。"
   },
   {
     "letter": "Q",
@@ -235,7 +283,10 @@
     "note": "Mercy is described as something freely given.",
     "image": "assets/images/Q.jpg",
     "wordAudio": "assets/audio/words/Q.mp3",
-    "quoteAudio": "assets/audio/quotes/Q.mp3"
+    "quoteAudio": "assets/audio/quotes/Q.mp3",
+    "wordTranslation": "品質；特質",
+    "definitionZh": "某個人或事物所具有的特徵或性質。",
+    "quoteTranslation": "仁慈的本質不是勉強而來的。"
   },
   {
     "letter": "R",
@@ -249,7 +300,10 @@
     "note": "Hamlet vows not to forget his father’s ghost.",
     "image": "assets/images/R.jpg",
     "wordAudio": "assets/audio/words/R.mp3",
-    "quoteAudio": "assets/audio/quotes/R.mp3"
+    "quoteAudio": "assets/audio/quotes/R.mp3",
+    "wordTranslation": "記得；回想",
+    "definitionZh": "將某事留在心中，或再次想起某事。",
+    "quoteTranslation": "要我記得你？是的，可憐的幽魂，只要我的記憶仍存在於這混亂的人世。"
   },
   {
     "letter": "S",
@@ -263,7 +317,10 @@
     "note": "A playful reflection on the different paths to greatness.",
     "image": "assets/images/S.jpg",
     "wordAudio": "assets/audio/words/S.mp3",
-    "quoteAudio": "assets/audio/quotes/S.mp3"
+    "quoteAudio": "assets/audio/quotes/S.mp3",
+    "wordTranslation": "一些；某些",
+    "definitionZh": "數量或範圍不明確的一部分。",
+    "quoteTranslation": "有人天生偉大，有人成就偉大，也有人被迫承擔偉大。"
   },
   {
     "letter": "T",
@@ -277,7 +334,10 @@
     "note": "The opening of one of literature’s best-known soliloquies.",
     "image": "assets/images/T.jpg",
     "wordAudio": "assets/audio/words/T.mp3",
-    "quoteAudio": "assets/audio/quotes/T.mp3"
+    "quoteAudio": "assets/audio/quotes/T.mp3",
+    "wordTranslation": "存在；生存",
+    "definitionZh": "存在或活著；也是哈姆雷特獨白中的核心語句。",
+    "quoteTranslation": "生存，還是毀滅：這就是問題。"
   },
   {
     "letter": "U",
@@ -291,7 +351,10 @@
     "note": "A king reflects on the burden of responsibility.",
     "image": "assets/images/U.jpg",
     "wordAudio": "assets/audio/words/U.mp3",
-    "quoteAudio": "assets/audio/quotes/U.mp3"
+    "quoteAudio": "assets/audio/quotes/U.mp3",
+    "wordTranslation": "不安的；令人憂慮的",
+    "definitionZh": "焦慮、煩惱，或無法感到安心的。",
+    "quoteTranslation": "戴著王冠的頭顱，難以安枕。"
   },
   {
     "letter": "V",
@@ -305,7 +368,10 @@
     "note": "A confident statement about moral courage.",
     "image": "assets/images/V.jpg",
     "wordAudio": "assets/audio/words/V.mp3",
-    "quoteAudio": "assets/audio/quotes/V.mp3"
+    "quoteAudio": "assets/audio/quotes/V.mp3",
+    "wordTranslation": "美德；德行",
+    "definitionZh": "道德上的良善，或值得敬佩的品格。",
+    "quoteTranslation": "美德無所畏懼，善良從不膽怯。"
   },
   {
     "letter": "W",
@@ -319,7 +385,10 @@
     "note": "A poetic reflection on the fleeting nature of life.",
     "image": "assets/images/W.jpg",
     "wordAudio": "assets/audio/words/W.mp3",
-    "quoteAudio": "assets/audio/quotes/W.mp3"
+    "quoteAudio": "assets/audio/quotes/W.mp3",
+    "wordTranslation": "夢；夢想",
+    "definitionZh": "睡眠時心中出現的景象；也可指希望與願景。",
+    "quoteTranslation": "我們都是由夢所構成的材料。"
   },
   {
     "letter": "X",
@@ -333,7 +402,10 @@
     "note": "A classical reference used in Petruchio’s comic boast.",
     "image": "assets/images/X.jpg",
     "wordAudio": "assets/audio/words/X.mp3",
-    "quoteAudio": "assets/audio/quotes/X.mp3"
+    "quoteAudio": "assets/audio/quotes/X.mp3",
+    "wordTranslation": "克珊西佩",
+    "definitionZh": "蘇格拉底之妻的名字；莎劇在此引用古典典故。",
+    "quoteTranslation": "她年紀如女先知西比爾般老，脾氣又像蘇格拉底的妻子克珊西佩一樣暴烈而機敏，甚至更甚。"
   },
   {
     "letter": "Y",
@@ -347,7 +419,10 @@
     "note": "A brief reflection on the passing of youth.",
     "image": "assets/images/Y.jpg",
     "wordAudio": "assets/audio/words/Y.mp3",
-    "quoteAudio": "assets/audio/quotes/Y.mp3"
+    "quoteAudio": "assets/audio/quotes/Y.mp3",
+    "wordTranslation": "青春；年少時期",
+    "definitionZh": "一個人年輕的生命階段。",
+    "quoteTranslation": "青春這種東西，終究無法長存。"
   },
   {
     "letter": "Z",
@@ -361,6 +436,9 @@
     "note": "A lively example of an Elizabethan exclamation.",
     "image": "assets/images/Z.jpg",
     "wordAudio": "assets/audio/words/Z.mp3",
-    "quoteAudio": "assets/audio/quotes/Z.mp3"
+    "quoteAudio": "assets/audio/quotes/Z.mp3",
+    "wordTranslation": "天啊；該死",
+    "definitionZh": "古英語感嘆詞，用來表達驚訝、憤怒或強烈情緒。",
+    "quoteTranslation": "天啊，孩子，你想去哪裡都行；我也算一份。"
   }
 ]

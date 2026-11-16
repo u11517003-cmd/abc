@@ -17,6 +17,15 @@ async function init() {
     $('prevWord').addEventListener('click', () => selectWord((selectedIndex + 25) % 26));
     $('nextWord').addEventListener('click', () => selectWord((selectedIndex + 1) % 26));
     $('randomWord').addEventListener('click', () => selectWord(Math.floor(Math.random() * entries.length)));
+    // Left / Right arrows browse the alphabet; typing in form fields remains unaffected.
+    document.addEventListener('keydown', (event) => {
+      if (event.altKey || event.ctrlKey || event.metaKey || event.isComposing) return;
+      const target = event.target;
+      const isTyping = target && (target.isContentEditable || ['INPUT', 'TEXTAREA', 'SELECT'].includes(target.tagName));
+      if (isTyping) return;
+      if (event.key === 'ArrowLeft') { event.preventDefault(); selectWord((selectedIndex - 1 + entries.length) % entries.length); }
+      else if (event.key === 'ArrowRight') { event.preventDefault(); selectWord((selectedIndex + 1) % entries.length); }
+    });
     $('menuToggle').addEventListener('click', () => {
       const nav = document.querySelector('.main-nav');
       nav.classList.toggle('open');
@@ -44,7 +53,10 @@ function selectWord(index) {
   $('wordTitle').textContent = entry.word;
   $('wordPos').textContent = entry.partOfSpeech;
   $('wordDefinition').textContent = entry.definition;
+  $('wordTranslation').textContent = entry.wordTranslation || '';
+  $('wordDefinitionZh').textContent = entry.definitionZh || ''; 
   $('wordQuote').textContent = entry.quote;
+  $('quoteTranslation').textContent = entry.quoteTranslation || ''; 
   $('quotePlay').textContent = entry.play;
   $('quoteScene').textContent = entry.scene;
   $('quoteSpeaker').textContent = entry.speaker;

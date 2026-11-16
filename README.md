@@ -75,3 +75,18 @@ shakespearean-abc/
 ## License
 
 The original HTML, CSS, JavaScript, and data structure in this project are provided under the MIT License. Shakespeare's original texts are public domain. Generated artwork and the bundled starter audio are project assets; see `LICENSE` for the project terms.
+
+
+## Keyboard navigation & bilingual text
+
+- Press **← Left Arrow** to open the previous letter.
+- Press **→ Right Arrow** to open the next letter. Navigation wraps from A to Z and from Z to A.
+- Arrow-key navigation is paused while the cursor is inside a text field, search box, or other editable control.
+- Every vocabulary entry displays its English definition, Traditional Chinese meaning, and Chinese explanation together. Each Shakespeare quotation is shown with its Traditional Chinese translation.
+
+Chinese translations are stored in `data/vocabulary.json` in the `wordTranslation`, `definitionZh`, and `quoteTranslation` fields, so they can be edited without changing the website code.
+
+
+## Quotation source attribution
+
+Every quotation displays its source play title prominently under a **FROM THE PLAY** label, followed by the act/scene and speaker when available. The title is populated from the `play` field in `data/vocabulary.json`.

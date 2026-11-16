@@ -51,6 +51,7 @@
         <p>Choose a letter to open its word, quotation, and listening room.</p>
       </div>
       <div class="alphabet" id="alphabet" aria-label="Choose a letter"></div>
+      <div class="keyboard-hint"><span class="keycap">←</span><span class="keycap">→</span> Use your keyboard to browse letters <span class="hint-divider">·</span> A ↔ Z loops around</div>
       <div class="search-row">
         <label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Search a word, play, or idea…" aria-label="Search vocabulary"></label>
         <span class="collection-count" id="collectionCount">26 entries</span>
@@ -62,7 +63,7 @@
           <div class="word-kicker"><span id="wordLetter">A</span><span>SHAKESPEAREAN VOCABULARY</span></div>
           <h3 id="wordTitle">All</h3>
           <p class="part-of-speech" id="wordPos">adjective / pronoun</p>
-          <p class="definition" id="wordDefinition">The whole amount; every person or thing.</p>
+          <div class="definition-pair"><p class="definition" id="wordDefinition">The whole amount; every person or thing.</p><p class="translation" id="wordTranslation">全部；所有</p><p class="definition-zh" id="wordDefinitionZh">指整體的數量，或每一個人、每一件事。</p></div>
           <div class="rule"></div>
           <div class="audio-block">
             <div class="audio-heading"><span>♫</span><span>WORD PRONUNCIATION</span></div>
@@ -70,8 +71,12 @@
           </div>
           <div class="quote-block">
             <p class="quote-label"><span>❝</span> THE GOLDEN LINE</p>
-            <blockquote id="wordQuote">“All the world’s a stage, and all the men and women merely players.”</blockquote>
-            <p class="quote-source"><span id="quotePlay">As You Like It</span> <b>·</b> <span id="quoteScene">Act 2, Scene 7</span> <b>·</b> <span id="quoteSpeaker">Jaques</span></p>
+            <blockquote id="wordQuote">“All the world’s a stage, and all the men and women merely players.”</blockquote><p class="quote-translation" id="quoteTranslation">整個世界是一座舞台，所有男人和女人都只是演員。</p>
+            <div class="quote-attribution" aria-label="Quotation source">
+              <span class="source-label">FROM THE PLAY</span>
+              <strong class="source-play" id="quotePlay">As You Like It</strong>
+              <span class="source-details"><span id="quoteScene">Act 2, Scene 7</span><span class="source-separator">·</span><span id="quoteSpeaker">Jaques</span></span>
+            </div>
             <p class="quote-note" id="quoteNote">A reflection on life as a performance.</p>
           </div>
           <div class="audio-block quote-audio-block">
