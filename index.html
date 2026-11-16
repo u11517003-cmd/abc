@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11100e">
+  <meta name="description" content="A literary journey through 26 Shakespearean words, quotations, art, and audio pronunciation.">
+  <title>The Shakespearean ABC — Words, Wit & Wonder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="The Shakespearean ABC home">
+      <span class="brand-mark">✦</span>
+      <span><strong>The Shakespearean ABC</strong><em>Words, Wit &amp; Wonder</em></span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a class="active" href="#home">Home</a><a href="#dictionary">A–Z Dictionary</a><a href="#about">About</a>
+    </nav>
+    <a class="header-cta" href="#dictionary">Explore the letters <span>↗</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> A LITERARY LEARNING EXPERIENCE</p>
+        <h1>A journey through<br><i>words that endure.</i></h1>
+        <p class="hero-intro">Discover the language of William Shakespeare, one remarkable word at a time — with timeless quotations, painterly art, and spoken English.</p>
+        <a class="gold-button" href="#dictionary">Begin the journey <span>→</span></a>
+        <div class="hero-note"><span class="ornament">✧ ───── ✧</span><span>26 WORDS · 26 QUOTATIONS · 52 AUDIO TRACKS</span></div>
+      </div>
+      <div class="hero-art" role="img" aria-label="A romantic impressionist painting of Shakespeare's Globe theatre at dusk"></div>
+      <div class="hero-caption">A little language, a little theatre, a little wonder.</div>
+    </section>
+
+    <section class="intro-strip" aria-label="Project introduction">
+      <div><span class="strip-icon">❧</span><p>READ THE WORD</p><small>Meaning &amp; context</small></div>
+      <div><span class="strip-icon">♫</span><p>HEAR THE WORD</p><small>Listen and repeat</small></div>
+      <div><span class="strip-icon">✧</span><p>SEE THE STORY</p><small>Art inspired by the plays</small></div>
+    </section>
+
+    <section class="dictionary-section" id="dictionary">
+      <div class="section-heading">
+        <p class="eyebrow">THE COMPLETE COLLECTION</p>
+        <h2>The <i>Shakespearean</i> alphabet</h2>
+        <p>Choose a letter to open its word, quotation, and listening room.</p>
+      </div>
+      <div class="alphabet" id="alphabet" aria-label="Choose a letter"></div>
+      <div class="search-row">
+        <label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Search a word, play, or idea…" aria-label="Search vocabulary"></label>
+        <span class="collection-count" id="collectionCount">26 entries</span>
+      </div>
+
+      <article class="word-feature" id="wordFeature" aria-live="polite">
+        <div class="art-panel"><img id="wordImage" src="assets/images/A.jpg" alt="Impressionist-inspired artwork for the selected word"><span class="art-label">A STUDY IN WORDS</span></div>
+        <div class="word-panel">
+          <div class="word-kicker"><span id="wordLetter">A</span><span>SHAKESPEAREAN VOCABULARY</span></div>
+          <h3 id="wordTitle">All</h3>
+          <p class="part-of-speech" id="wordPos">adjective / pronoun</p>
+          <p class="definition" id="wordDefinition">The whole amount; every person or thing.</p>
+          <div class="rule"></div>
+          <div class="audio-block">
+            <div class="audio-heading"><span>♫</span><span>WORD PRONUNCIATION</span></div>
+            <audio id="wordAudio" controls preload="none"><source src="assets/audio/words/A.mp3" type="audio/mpeg">Your browser does not support audio.</audio>
+          </div>
+          <div class="quote-block">
+            <p class="quote-label"><span>❝</span> THE GOLDEN LINE</p>
+            <blockquote id="wordQuote">“All the world’s a stage, and all the men and women merely players.”</blockquote>
+            <p class="quote-source"><span id="quotePlay">As You Like It</span> <b>·</b> <span id="quoteScene">Act 2, Scene 7</span> <b>·</b> <span id="quoteSpeaker">Jaques</span></p>
+            <p class="quote-note" id="quoteNote">A reflection on life as a performance.</p>
+          </div>
+          <div class="audio-block quote-audio-block">
+            <div class="audio-heading"><span>♫</span><span>QUOTATION PRONUNCIATION</span></div>
+            <audio id="quoteAudio" controls preload="none"><source src="assets/audio/quotes/A.mp3" type="audio/mpeg">Your browser does not support audio.</audio>
+          </div>
+          <div class="word-actions"><button id="prevWord" class="text-button">← Previous</button><button id="randomWord" class="text-button">Surprise me ✧</button><button id="nextWord" class="text-button">Next →</button></div>
+        </div>
+      </article>
+      <div class="letter-gallery" id="letterGallery" aria-label="All vocabulary entries"></div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="about-decoration">❧</div>
+      <div><p class="eyebrow">ABOUT THIS PROJECT</p><h2>Words are <i>wings of the mind.</i></h2></div>
+      <p class="about-copy">A small celebration of Shakespeare’s language. Each entry pairs a memorable word with a line from a play, a visual interpretation, and two audio tracks for listening practice. The audio files are separate so they can be replaced with your own recordings at any time.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer"><span>THE SHAKESPEAREAN ABC</span><span>AN INDEPENDENT LITERARY LEARNING PROJECT</span><a href="#home">Back to top ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
